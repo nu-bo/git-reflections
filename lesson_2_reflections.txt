@@ -1,0 +1,10 @@
+
+"HEAD" is Git's name for the current commit
+
+By initialising a repository you create a .git directory.
+This .git directory contains metadata which tracks changes.
+
+The Staging Area is an intermediate area between the Working Directory and the Repository.
+Files can only be committed from the staging area.
+It allows developers to organise files into a logical step before committing.
+
