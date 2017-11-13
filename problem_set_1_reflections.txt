@@ -1,0 +1,18 @@
+
+git diff will compare two commits, printing each line that is present in one commit but not the other.
+It takes two arguments - the two commit ids to compare. 
+
+git clone will make a copy of an entire Git repository, including the history, onto your own computer.
+It takes one argument - the url of the repository to copy. 
+
+git checkout will temporarily reset all files in a directory to their state at the time of a specific commit.
+It takes one argument - the commit ID to restore. 
+
+git log will show the commits made in this repository, starting with the most recent.
+It doesn't take any arguments.
+
+It's important to leave good descriptive comments for each commit as it can make it easier when debugging to identify where errors were introduced.
+This saves time having to look at the code with git diff.
+
+'Detached Head' state is when you use git checkout to look at previous commits.
+If you make a change at this point and want to revert to the newer files, you will have to make a branch or stash these changes. (Haven't learned this yet.)
