@@ -1,0 +1,23 @@
+Using the diff command immediately highlighted the lines which contained differences.
+I didn't have to search through all the text manually.
+
+Having access to the entire history of file changes means that I don't need to remember each change.
+I don't have to keep records of each individual version, which would replicate information and require more memory.
+
+Choosing manual (vs automatic) commits in Git means that each change has a logical meaning which makes the branch easier to understand.
+It reduces the number of total commits and hence saves memory.
+However it does require the user to decide when to commit and hence runs the risk of valuable information not being saved and hence lost.
+
+Git allows saving multiple files in each commit as it deals with bigger projects that are built up of many smaller steps in files that are grouped into a repository.
+Google docs deals with single documents (or files) at a time.
+
+git log is used to show a history of all commits.
+It shows the comment which describes why the commit was done.
+Then use git diff to compare that commit with another.
+The additions are shown in green, deletions in red.
+
+Thanks to Git I can have complete confidence to make lots of changes to code knowing that I can always revert to a functioning version if there's a problem.
+
+I now want to use Git for everything I do!
+I could use it to track changes whilst doing my CV.
+I could use it to illustrate how I build something, my thinking process.
