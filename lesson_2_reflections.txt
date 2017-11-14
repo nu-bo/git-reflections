@@ -17,3 +17,13 @@ Good to keep development branch separate from production code.
 Branch diagrams help illustrate which commits are linked and which are not.
 Each commit remembers its parent commit.
 Some commits will be unreachable from others.
+
+By merging two branches together you combine the changes made in each.
+To determine which lines of code are kept, a comparison is made with the point at which the branches diverged.
+Lines that were added are kept & lines that were deleted are discarded.
+Sometimes there is a merge conflict and you will have to go through the changes manually.
+The git log --graph --oneline illustrates a diagram of the two branches.
+This can be used to the point at which the branches diverged and will allow identification of key commits on each branch.
+
+Automatic git merging is handy but could cause conflicts and doesn't really know which code is best.
+Manual git merging ensures the code has the desired output but is laborious.
