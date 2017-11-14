@@ -14,3 +14,6 @@ Branches are helpful when you want to trial out an experimental feature.
 Also good for different versions e.g. languages or levels of difficulty.
 Good for switching context to another area/problem.
 Good to keep development branch separate from production code.
+Branch diagrams help illustrate which commits are linked and which are not.
+Each commit remembers its parent commit.
+Some commits will be unreachable from others.
