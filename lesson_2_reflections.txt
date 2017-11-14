@@ -7,4 +7,8 @@ This .git directory contains metadata which tracks changes.
 The Staging Area is an intermediate area between the Working Directory and the Repository.
 Files can only be committed from the staging area.
 It allows developers to organise files into a logical step before committing.
+Needing to specify which files are added to the staging area with git add gives more control.
+Use git diff --staged to see differences between files in Staging Area and most recent commit.
 
+Branches are helpful when you want to trial out an experimental feature.
+Also good for different versions e.g. languages or levels of difficulty.
