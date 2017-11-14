@@ -12,3 +12,5 @@ Use git diff --staged to see differences between files in Staging Area and most 
 
 Branches are helpful when you want to trial out an experimental feature.
 Also good for different versions e.g. languages or levels of difficulty.
+Good for switching context to another area/problem.
+Good to keep development branch separate from production code.
